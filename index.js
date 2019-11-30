@@ -1,5 +1,5 @@
 // Add your code here
-configurationObject = {
+fetch("http://localhost:3000/dogs", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
